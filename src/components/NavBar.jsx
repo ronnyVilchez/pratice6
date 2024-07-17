@@ -4,7 +4,7 @@ import close from '/images/icon-menu-close.svg'
 
 export const NavBar = () => {
 
-    const [menuModal, setMenuModal] = useState(false)
+    const [menuModal, setMenuModal] = useState(true)
     const openMenu = () => {
         setMenuModal(!menuModal)
     }
